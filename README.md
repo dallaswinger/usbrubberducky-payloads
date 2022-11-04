@@ -2,14 +2,11 @@
 This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. Community developed payloads are listed and developers are encouraged to create pull requests to make changes to or submit new payloads.
 
 ## PayloadStudio
-<p align="center">
 ![](https://cdn.shopify.com/s/files/1/0068/2142/products/payload-studio-icon_180x.png?v=1659135374)
-</p>
 Unleash your hacking creativity! [Open PayloadStudio](https://payloadstudio.hak5.org "Open PayloadStudio")
 ,a fully featured IDE for all your DuckyScript development across all your favorite Hak5 tools.
 
 ![](https://cdn.shopify.com/s/files/1/0068/2142/files/payload-studio-error-checking_600x.gif)
-
 
 [Become a PayloadStudio Pro](https://hak5.org/products/payload-studio-pro "Become a PayloadStudio Pro")
 
