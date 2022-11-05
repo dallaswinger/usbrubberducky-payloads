@@ -30,32 +30,33 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 <br/><br/>
 </div>
 
-<ul>
-	<li>
-		<a href="#build-your-payloads">Build and Encode your Payloads with PayloadStudio</a>
-	</li>
-</ul>
-
 -   [Purchase the NEW USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081 "Purchase the NEW USB Rubber Ducky")
+- [Build and Encode Payloads with PayloadStudio](#build-your-payloads) / [Your First Payload](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world)
 -   [Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "Documentation") / [Quick Reference Guide](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-quick-reference "Quick Reference Guide")
--   [Your First Payload](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world "Your First Payload")
 -   [Advanced DuckyScript Online Course](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/advanced-duckyscript-course "DuckyScript Online Course") / [Textbook](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/usb-rubber-ducky-textbook "Textbook")
 -   [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums") / [Discord](https://hak5.org/discord/ "Discord")
 
-# About the USB Rubber Ducky and DuckyScript™
+# About the USB Rubber Ducky
 A "flash drive" that types keystroke injection payloads into unsuspecting devices at incredible speeds.
 
 [![USB Rubber Ducky](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MiIkRK_o3RBhZzUkrzr%2Fuploads%2FW1Cy0NoSZJhOkaG7gk9t%2Fusb-rubber-ducky-3d-white-bg.png?alt=media&token=7a92ff75-c7ae-4280-b4da-690bef71dac8 "USB Rubber Ducky")](https://hak5.org/products/usb-rubber-ducky)
 
 <p align="center"><i> New USB Rubber Ducky (A+C, DuckyScript 3.0, 2022)</i></p>
 
-## Legacy DuckyScript™ 1.0
+Computers trust humans. Humans use keyboards. Hence the universal spec — HID, or Human Interface Device.
+
+A keyboard presents itself as a HID, and in turn it's inherently trusted as human by the computer.
+
+The USB Rubber Ducky — which looks like an innocent flash drive to humans — takes advantage of this trust to deliver powerful payloads, injecting keystrokes at superhuman speeds. 
+
+Easily automate any task you can perform with a keyboard with an easy to learn language designed specifically for the USB Rubber Ducky.
+
+## About DuckyScript™
 Hak5 introduced Keystroke Injection in 2010 with the USB Rubber Ducky™. This technique, developed by Hak5 founder Darren Kitchen, was his weapon of choice for automating mundane tasks at his IT job — fixing printers, network shares and the like.
 Today the USB Rubber Ducky is a hacker culture icon, synonymous with the keystroke injection technique it pioneered. It’s found its way into the hearts and toolkits of Cybersecurity and IT pros the world over — including many movies and TV shows!
 Core to its success is its simple language, DuckyScript™. Originally just three commands, it could be learned by anyone—regardless of experience—in minutes.
 
-## DuckyScript™ 3.0
-With the new USB Rubber Ducky in 2022, DuckyScript 3.0 has been introduced.
+### With the new USB Rubber Ducky in 2022, DuckyScript 3.0 has been introduced.
 DuckyScript 3.0 is a feature rich, structured programming language. It includes all of the previously available commands and features of the original DuckyScript.
 
 <b>(DuckyScript 3.0 is backwards compatible with DuckyScript 1.0; this means all your favorite DuckyScript 1.0 paylaods are valid DuckyScript 3.0) </b>
@@ -82,6 +83,9 @@ OR
 <br/>
 <i> Payload Studio Feature Preview GIF </i>
 </p>
+
+
+
 
 ## Legal
 Payloads from this repository are provided for educational purposes only.  Hak5 gear is intended for authorized auditing and security analysis purposes only where permitted subject to local and international laws where applicable. Users are solely responsible for compliance with all laws of their locality. Hak5 LLC and affiliates claim no responsibility for unauthorized or unlawful use.
