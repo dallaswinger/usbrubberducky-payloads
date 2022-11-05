@@ -1,4 +1,4 @@
-# Payload Library for the USB Rubber Ducky by Hak5
+# Payload Library for the [USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081) by [Hak5](hak5.org)
 
 This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. Community developed payloads are listed and developers are encouraged to create pull requests to make changes to or submit new payloads.
 
@@ -11,6 +11,12 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 <img src="https://img.shields.io/github/commit-activity/y/hak5/usbrubberducky-payloads?style=for-the-badge">
 <img src="https://img.shields.io/github/contributors/hak5/usbrubberducky-payloads?style=for-the-badge">
 </div>
+<br/>
+<p align="center">
+<a href="https://payloadhub.com"><img src="https://cdn.shopify.com/s/files/1/0068/2142/files/payloadhub.png?v=1652474600"></a>
+<br/>
+<a href="https://hak5.org/blogs/payloads/tagged/usb-rubber-ducky">View Featured Ducky Payloads and Leaderboard</a>
+</p>
 
 ## Links
 <div align="center">
@@ -23,6 +29,7 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 <img src="https://img.shields.io/twitter/follow/hak5?style=for-the-badge"/>
 <br/><br/>
 </div>
+
 <ul>
 	<li>
 		<a href="#build-your-payloads">Build and Encode your Payloads with PayloadStudio</a>
@@ -30,14 +37,15 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 </ul>
 
 -   [Purchase the NEW USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081 "Purchase the NEW USB Rubber Ducky")
--   [Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "Documentation")
--   [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums")
--   [Discord](https://hak5.org/discord/ "Discord")
+-   [Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "Documentation") / [Quick Reference Guide](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-quick-reference "Quick Reference Guide")
+-   [Your First Payload](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world "Your First Payload")
+-   [Advanced DuckyScript Online Course](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/advanced-duckyscript-course "DuckyScript Online Course") / [Textbook](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/usb-rubber-ducky-textbook "Textbook")
+-   [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums") / [Discord](https://hak5.org/discord/ "Discord")
 
 # About the USB Rubber Ducky and DuckyScript™
 A "flash drive" that types keystroke injection payloads into unsuspecting devices at incredible speeds.
 
-[![USB Rubber Ducky](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MiIkRK_o3RBhZzUkrzr%2Fuploads%2FW1Cy0NoSZJhOkaG7gk9t%2Fusb-rubber-ducky-3d-white-bg.png?alt=media&token=7a92ff75-c7ae-4280-b4da-690bef71dac8)](https://hak5.org/products/usb-rubber-ducky)
+[![USB Rubber Ducky](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MiIkRK_o3RBhZzUkrzr%2Fuploads%2FW1Cy0NoSZJhOkaG7gk9t%2Fusb-rubber-ducky-3d-white-bg.png?alt=media&token=7a92ff75-c7ae-4280-b4da-690bef71dac8 "USB Rubber Ducky")](https://hak5.org/products/usb-rubber-ducky)
 
 <p align="center"><i> New USB Rubber Ducky (A+C, DuckyScript 3.0, 2022)</i></p>
 
@@ -52,10 +60,8 @@ DuckyScript 3.0 is a feature rich, structured programming language. It includes 
 
 <b>(DuckyScript 3.0 is backwards compatible with DuckyScript 1.0; this means all your favorite DuckyScript 1.0 paylaods are valid DuckyScript 3.0) </b>
 
-Additionally, DuckyScript 3.0 introduces control flow constructs (if/else if/else), repetition (loops), functions, extensions.
-Plus, DuckyScript 3.0 includes many features specific to keystroke injection attack/automation, such as HID & Storage attack modes, OS Detection, [Keystroke Reflection](https://shop.hak5.org/pages/keystroke-reflection "Keystroke Reflection"), jitter and randomization to name a few.
-[This documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "This documentation") will cover the basics, then introduce each of the new features such that they build upon one another.
-
+Additionally, DuckyScript 3.0 introduces [control flow constructs](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/conditional-statements "View Documentation"), [loops](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/loops "View Documentation"), [functions](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/functions "View Documentation"), [extensions](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/extensions "View Documentation").
+Plus, DuckyScript 3.0 includes many features specific to [keystroke injection](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/keystroke-injection "View Documentation") attack/automation, such as [HID & Storage attack modes](https://docs.hak5.org/hak5-usb-rubber-ducky/attack-modes-constants-and-variables/attack-modes "View Documentation"), OS Detection, [Keystroke Reflection](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/exfiltration#the-keystroke-reflection-attack "View Documentation") ([Video + Whitepaper](https://shop.hak5.org/pages/keystroke-reflection "Keystroke Reflection Video + Whitepaper")), [jitter](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/jitter "View Documentation") and [randomization](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/randomization "View Documentation") to name a few.
 
 <h2><a href="https://payloadstudio.hak5.org">Build your payloads</a></h2>
 <p align="center">
@@ -90,6 +96,15 @@ Hak5 LLC products and technology are only available to BIS recognized license ex
 Generally, payloads may execute commands on your device. As such, it is possible for a payload to damage your device. Payloads from this repository are provided AS-IS without warranty. While Hak5 makes a best effort to review payloads, there are no guarantees as to their effectiveness. As with any script, you are advised to proceed with caution.
 
 ## Contributing
+
+
+<p align="center">
+<a href="https://payloadhub.com"><img src="https://cdn.shopify.com/s/files/1/0068/2142/files/payloadhub.png?v=1652474600"></a>
+<br/>
+<a href="https://paylaodhub.com">View Featured Payloads and Leaderboard </a>
+</p>
+
+
 Once you have developed your payload, you are encouraged to contribute to this repository by submitting a Pull Request. Reviewed and Approved pull requests will add your payload to this repository, where they may be publically available.
 
 ### Please adhere to the following best practices and style guide when submitting a payload.
