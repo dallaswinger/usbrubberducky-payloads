@@ -1,40 +1,80 @@
 # Payload Library for the USB Rubber Ducky by Hak5
+
 This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. Community developed payloads are listed and developers are encouraged to create pull requests to make changes to or submit new payloads.
 
-# About the USB Rubber Ducky and DuckyScript
-<b> A "flash drive" that types keystroke injection payloads into unsuspecting devices at incredible speeds. </b>
+<div align="center">
+
+<img src="https://img.shields.io/github/forks/hak5/usbrubberducky-payloads?style=for-the-badge"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/github/stars/hak5/usbrubberducky-payloads?style=for-the-badge"/>
+<br/>
+<img src="https://img.shields.io/github/commit-activity/y/hak5/usbrubberducky-payloads?style=for-the-badge">
+<img src="https://img.shields.io/github/contributors/hak5/usbrubberducky-payloads?style=for-the-badge">
+</div>
+
+## Links
+<div align="center">
+<a href="https://hak5.org/discord"><img src="https://img.shields.io/discord/506629366659153951?label=Hak5%20Discord&style=for-the-badge"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/youtube/channel/views/UC3s0BtrBJpwNDaflRSoiieQ?label=YouTube%20Views&style=for-the-badge"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/youtube/channel/subscribers/UC3s0BtrBJpwNDaflRSoiieQ?style=for-the-badge"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/twitter/follow/hak5?style=for-the-badge"/>
+<br/><br/>
+</div>
+<ul>
+	<li>
+		<a href="#build-your-payloads">Build and Encode your Payloads with PayloadStudio</a>
+	</li>
+</ul>
+
 -   [Purchase the NEW USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081 "Purchase the NEW USB Rubber Ducky")
 -   [Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "Documentation")
 -   [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums")
--   [Discord](https://hak5.org/discord "Discord")
+-   [Discord](https://hak5.org/discord/ "Discord")
+
+# About the USB Rubber Ducky and DuckyScript™
+A "flash drive" that types keystroke injection payloads into unsuspecting devices at incredible speeds.
 
 [![USB Rubber Ducky](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MiIkRK_o3RBhZzUkrzr%2Fuploads%2FW1Cy0NoSZJhOkaG7gk9t%2Fusb-rubber-ducky-3d-white-bg.png?alt=media&token=7a92ff75-c7ae-4280-b4da-690bef71dac8)](https://hak5.org/products/usb-rubber-ducky)
 
 <p align="center"><i> New USB Rubber Ducky (A+C, DuckyScript 3.0, 2022)</i></p>
 
-## DuckyScript™ 1.0 (Legacy)
+## Legacy DuckyScript™ 1.0
 Hak5 introduced Keystroke Injection in 2010 with the USB Rubber Ducky™. This technique, developed by Hak5 founder Darren Kitchen, was his weapon of choice for automating mundane tasks at his IT job — fixing printers, network shares and the like.
 Today the USB Rubber Ducky is a hacker culture icon, synonymous with the keystroke injection technique it pioneered. It’s found its way into the hearts and toolkits of Cybersecurity and IT pros the world over — including many movies and TV shows!
 Core to its success is its simple language, DuckyScript™. Originally just three commands, it could be learned by anyone—regardless of experience—in minutes.
 
-## DuckyScript 3.0
+## DuckyScript™ 3.0
 With the new USB Rubber Ducky in 2022, DuckyScript 3.0 has been introduced.
 DuckyScript 3.0 is a feature rich, structured programming language. It includes all of the previously available commands and features of the original DuckyScript.
+
+<b>(DuckyScript 3.0 is backwards compatible with DuckyScript 1.0; this means all your favorite DuckyScript 1.0 paylaods are valid DuckyScript 3.0) </b>
+
 Additionally, DuckyScript 3.0 introduces control flow constructs (if/else if/else), repetition (loops), functions, extensions.
 Plus, DuckyScript 3.0 includes many features specific to keystroke injection attack/automation, such as HID & Storage attack modes, OS Detection, [Keystroke Reflection](https://shop.hak5.org/pages/keystroke-reflection "Keystroke Reflection"), jitter and randomization to name a few.
 [This documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "This documentation") will cover the basics, then introduce each of the new features such that they build upon one another.
 
 
-<h2><a href="https://payloadstudio.hak5.org"> PayloadStudio</a></h2>
+<h2><a href="https://payloadstudio.hak5.org">Build your payloads</a></h2>
 <p align="center">
+Take your DuckyScript™ payloads to the next level with this full-featured,<b> web-based (entirely client side) </b> development environment.
 <a href="https://payloadstudio.hak5.org"><img src="https://cdn.shopify.com/s/files/1/0068/2142/products/payload-studio-icon_180x.png?v=1659135374"></a>
 <br/>
+<i>Payload studio features all of the conveniences of a modern IDE, right from your browser. From syntax highlighting and auto-completion to live error-checking and repo synchronization - building payloads for Hak5 hotplug tools has never been easier!
+<br/><br/>
+Supports your favorite Hak5 gear - USB Rubber Ducky, Bash Bunny, Key Croc, Shark Jack, Packet Squirrel & LAN Turtle!
+<br/><br/></i>
 <a href="https://hak5.org/products/payload-studio-pro">Become a PayloadStudio Pro</a> and <b> Unleash your hacking creativity! </b>
 <br/>
-<i>a fully featured IDE for all your DuckyScript development across all your favorite Hak5 tools.</i>
+OR
+<br/>
+<a href="https://payloadstudio.hak5.org"> Try Community Edition FREE</a> 
+<br/>
 <a href="https://payloadstudio.hak5.org"><img src="https://cdn.shopify.com/s/files/1/0068/2142/files/payload-studio-error-checking_600x.gif"></a>
 <br/>
-<a href="https://payloadstudio.hak5.org">Try Community Edition FREE</a> 
+<i> Payload Studio Feature Preview GIF </i>
 </p>
 
 ## Legal
