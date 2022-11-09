@@ -3,10 +3,9 @@
 This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. Community developed payloads are listed and developers are encouraged to create pull requests to make changes to or submit new payloads.
 
 <div align="center">
-
-<img src="https://img.shields.io/github/forks/hak5/usbrubberducky-payloads?style=for-the-badge"/>
+<img src="https://img.shields.io/github/forks/hak5/usbrubberducky-payloads?style=for-the-badge">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/github/stars/hak5/usbrubberducky-payloads?style=for-the-badge"/>
+<img src="https://img.shields.io/github/stars/hak5/usbrubberducky-payloads?style=for-the-badge">
 <br/>
 <img src="https://img.shields.io/github/commit-activity/y/hak5/usbrubberducky-payloads?style=for-the-badge">
 <img src="https://img.shields.io/github/contributors/hak5/usbrubberducky-payloads?style=for-the-badge">
