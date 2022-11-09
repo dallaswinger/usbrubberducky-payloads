@@ -98,7 +98,7 @@ While many of the Hak5 Tools run various versions of DuckyScript; unlike the [Ba
 
 _Interpreted DuckyScript means the payload runs straight from `source code` (the code you write e.g. `DELAY 1000`)._
 
-_Compiled DuckyScript means that there is both `source code` and an `inject.bin` generated from the source code_
+_Compiled DuckyScript means that there is both `source code` and an `inject.bin` generated from the source code. (DuckyScript 1.0 was "encoded" rather than "compiled" - references to either mean the same)_
 
 The files in this repository are _the source code_ in the form of `payload.txt` files. 
 
