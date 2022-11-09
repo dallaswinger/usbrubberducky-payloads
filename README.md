@@ -16,6 +16,7 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 <a href="https://payloadhub.com"><img src="https://cdn.shopify.com/s/files/1/0068/2142/files/payloadhub.png?v=1652474600"></a>
 <br/>
 <a href="https://hak5.org/blogs/payloads/tagged/usb-rubber-ducky">View Featured Ducky Payloads and Leaderboard</a>
+<br/><i>Get your payload in front of thousands. Enter to win over $2,000 in prizes in the <a href="https://hak5.org/pages/payload-awards">Hak5 Payload Awards!</a></i>
 </p>
 
 
@@ -31,21 +32,21 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 
 </div>
 
-### Shop
+# Shop
 - [NEW USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081 "Purchase the NEW USB Rubber Ducky")
 - [PayloadStudio Pro](https://hak5.org/products/payload-studio-pro "Purchase PayloadStudio Pro")
 - [Shop All Hak5 Tools](https://shop.hak5.org "Shop All Hak5 Tools")
-### Getting Started
-- [Build and Encode Payloads with PayloadStudio](#build-your-payloads) | [QUICK START GUIDE](https://docs.hak5.org/hak5-usb-rubber-ducky/unboxing-quack-start-guide "QUICK START GUIDE") | [Your First Payload](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world)
-### Documentation / Learn More
+## Getting Started
+- [Build and Encode Payloads with PayloadStudio](#build-your-payloads-with-payloadstudio) | [QUICK START GUIDE](https://docs.hak5.org/hak5-usb-rubber-ducky/unboxing-quack-start-guide "QUICK START GUIDE") | [Your First Payload](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world)
+## Documentation / Learn More
 -   [Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "Documentation") | [Quick Reference Guide](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-quick-reference "Quick Reference Guide")
 -   [Advanced DuckyScript Online Course](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/advanced-duckyscript-course "DuckyScript Online Course") | [Textbook](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/usb-rubber-ducky-textbook "Textbook")
-### Community
--   [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums") | [Discord](https://hak5.org/discord/ "Discord")
+## Community
+*Got Questions? Need some help? Reach out:*
+-  [Discord](https://hak5.org/discord/ "Discord") | [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums")
 
 
-
-<br/><br/>
+## Additional Links
 <b> Follow the creators </b><br/>
 <p >
 	<a href="https://twitter.com/notkorben">Korben's Twitter</a> | 
@@ -61,12 +62,13 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 A "flash drive" that types keystroke injection payloads into unsuspecting devices at incredible speeds.
 
 
-<div align="center">
+<b><div align="center">
+	<br/>
 <a href="https://www.youtube.com/watch?v=meNlOrdQJFo">Launch Video</a> | 
-<a href="https://shop.hak5.org/pages/keystroke-reflection">Keystroke Reflection</a> |
-<a href="https://www.youtube.com/watch?v=hFfo1TdY9hU">OS Detection</a>
+<a href="https://shop.hak5.org/pages/keystroke-reflection">Introducing Keystroke Reflection</a> |
+<a href="https://www.youtube.com/watch?v=hFfo1TdY9hU">Introducing OS Detection</a>
 <br/><br/>
-</div>
+</div></b>
 
 [![USB Rubber Ducky](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MiIkRK_o3RBhZzUkrzr%2Fuploads%2FW1Cy0NoSZJhOkaG7gk9t%2Fusb-rubber-ducky-3d-white-bg.png?alt=media&token=7a92ff75-c7ae-4280-b4da-690bef71dac8 "USB Rubber Ducky")](https://hak5.org/products/usb-rubber-ducky)
 
@@ -80,12 +82,15 @@ The USB Rubber Ducky — which looks like an innocent flash drive to humans — 
 
 Easily automate any task you can perform with a keyboard with an easy to learn language designed specifically for the USB Rubber Ducky.
 
-## About DuckyScript™
+# About DuckyScript™
+
+## Legacy DuckyScript (1.0)
 Hak5 introduced Keystroke Injection in 2010 with the USB Rubber Ducky™. This technique, developed by Hak5 founder Darren Kitchen, was his weapon of choice for automating mundane tasks at his IT job — fixing printers, network shares and the like.
 Today the USB Rubber Ducky is a hacker culture icon, synonymous with the keystroke injection technique it pioneered. It’s found its way into the hearts and toolkits of Cybersecurity and IT pros the world over — including many movies and TV shows!
 Core to its success is its simple language, DuckyScript™. Originally just three commands, it could be learned by anyone—regardless of experience—in minutes.
 
-### With the new USB Rubber Ducky in 2022, DuckyScript 3.0 has been introduced.
+<b> With the new USB Rubber Ducky in 2022, DuckyScript 3.0 has been introduced.</b>
+## DuckyScript 3.0
 DuckyScript 3.0 is a feature rich, structured programming language. It includes all of the previously available commands and features of the original DuckyScript.
 
 <b>(DuckyScript 3.0 is backwards compatible with DuckyScript 1.0; this means all your favorite DuckyScript 1.0 paylaods are valid DuckyScript 3.0) </b>
@@ -103,7 +108,7 @@ _Compiled DuckyScript means that there is both `source code` and an `inject.bin`
 The files in this repository are _the source code_ in the form of `payload.txt` files. 
 
 
-<h2><a href="https://payloadstudio.hak5.org">Build your payloads</a></h2>
+<h1><a href="https://payloadstudio.hak5.org">Build your payloads with PayloadStudio</a></h1>
 <p align="center">
 Take your DuckyScript™ payloads to the next level with this full-featured,<b> web-based (entirely client side) </b> development environment.
 <a href="https://payloadstudio.hak5.org"><img src="https://cdn.shopify.com/s/files/1/0068/2142/products/payload-studio-icon_180x.png?v=1659135374"></a>
@@ -130,7 +135,7 @@ OR
 
 
 
-## The Ecosystem
+## DuckyScript Ecosystem
 
 <h3><a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages'>Languages </a></h3>
 Support for different keyboard layouts can be found, modified or contributed to in the <b><a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages'> languages/ </a></b> directory of this repository.
@@ -157,7 +162,7 @@ While Hak5 developers cannot envision all possible use cases for the USB Rubber 
 [Read more here](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/extensions "Read more here")
 
 
-<h2><a href='https://payloadhub.com'>Contributing</a></h2>
+<h1><a href='https://payloadhub.com'>Contributing</a></h1>
 
 <p align="center">
 <a href="https://payloadhub.com"><img src="https://cdn.shopify.com/s/files/1/0068/2142/files/payloadhub.png?v=1652474600"></a>
@@ -168,12 +173,13 @@ While Hak5 developers cannot envision all possible use cases for the USB Rubber 
 
 Once you have developed your payload, you are encouraged to contribute to this repository by submitting a Pull Request. Reviewed and Approved pull requests will add your payload to this repository, where they may be publically available.
 
-### Please adhere to the following best practices and style guides when submitting a payload.
+# Please adhere to the following best practices and style guides when submitting a payload.
+Subject to change. Please ensure any submissions meet the [latest version](https://github.com/hak5/usbrubberducky-payloads/blob/master/README.md) of these standards before submitting a Pull Request.
 
-### Naming Conventions
+## Naming Conventions
 Please give your payload a unique, descriptive and appropriate name. Do not use spaces in payload, directory or file names. Each payload should be submit into its own directory, with `-` or `_` used in place of spaces, to one of the categories such as exfiltration, phishing, remote_access or recon. Do not create your own category.
 
-### Payload Configuration
+## Payload Configuration
 In many cases, payloads will require some level of configuration by the end payload user. Be sure to take the following into careful consideration to ensure your payload is easily tested, used and maintained. 
 
 - Abstract configuration(s) for ease of use. Use `DEFINE` where possible.
@@ -196,7 +202,7 @@ Example:
 	STRING MY_TARGET_URL
 	...
 </pre>
-### Payload Documentation 
+## Payload Documentation 
 Payloads should begin with `REM` comments specifying the title of the payload, the author, the target, and a brief description.
 <pre>
 Example:
@@ -211,9 +217,12 @@ Example:
 	REM Category: General
 </pre>
 
+### Purely Desctructive payloads will not be accepted. No; it's not "just a prank".
 
 
-## Legal
+
+<h1><a href="https://hak5.org/pages/policy">Legal</a></h1>
+
 Payloads from this repository are provided for educational purposes only.  Hak5 gear is intended for authorized auditing and security analysis purposes only where permitted subject to local and international laws where applicable. Users are solely responsible for compliance with all laws of their locality. Hak5 LLC and affiliates claim no responsibility for unauthorized or unlawful use.
 
 USB Rubber Ducky and DuckyScript are the trademarks of Hak5 LLC. Copyright © 2010 Hak5 LLC. All rights reserved. No part of this work may be reproduced or transmitted in any form or by any means without prior written permission from the copyright owner.
@@ -222,5 +231,5 @@ DuckyScript is the intellectual property of Hak5 LLC for the sole benefit of Hak
 This material is for education, authorized auditing and analysis purposes where permitted subject to local and international laws. Users are solely responsible for compliance. Hak5 LLC claims no responsibility for unauthorized or unlawful use.
 Hak5 LLC products and technology are only available to BIS recognized license exception ENC favorable treatment countries pursuant to US 15 CFR Supplement No 3 to Part 740.
 
-## Disclaimer
+# Disclaimer
 Generally, payloads may execute commands on your device. As such, it is possible for a payload to damage your device. Payloads from this repository are provided AS-IS without warranty. While Hak5 makes a best effort to review payloads, there are no guarantees as to their effectiveness. As with any script, you are advised to proceed with caution.
