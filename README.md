@@ -121,7 +121,7 @@ OR
 <img src="https://cdn.shopify.com/s/files/1/0068/2142/files/themes1_1_600x.gif?v=1659642557">
 <br/>
 <i> Payload Studio Themes Preview GIF </i>
-<br/>
+<br/><br/>
 <img src="https://cdn.shopify.com/s/files/1/0068/2142/files/AUTOCOMPLETE3_600x.gif?v=1659640513">
 <br/>
 <i> Payload Studio Autocomplete Preview GIF </i>
