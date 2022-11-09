@@ -140,11 +140,15 @@ OR
 <h3><a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages'>Languages </a></h3>
 Support for different keyboard layouts can be found, modified or contributed to in the <b><a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages'> languages/ </a></b> directory of this repository.
 
-Compiling payloads for the correct language / keyboard layout has never been easier: <a href='https://payloadstudio.hak5.org'> Open PayloadStudio \> Settings \> Compiler Settings</a> We have included all the languages provided in this repo for your convenience. 
+Compiling payloads for the correct language / keyboard layout has never been easier:
 
-For those who want to dive deeper, <a href="https://hak5.org/products/payload-studio-pro">PayloadStudio Pro</a> has a built in editor specifically for editing and building language files! 
+<a href='https://payloadstudio.hak5.org'> Open PayloadStudio \> Settings \> Compiler Settings</a> 
 
-The default language is US and can be found at <a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages/us.json'>languages/us.json </a>
+PayloadStudio includes all the languages provided in this repo built-in for your convenience. 
+
+<a href="https://hak5.org/products/payload-studio-pro">PayloadStudio Pro</a> has a <b>dedicated language editor</b> specifically for editing and building language files! 
+
+The default language is US <a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages/us.json'>(languages/us.json)</a>
 
 <h3><a href="https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/extensions">Extensions</a></h3>
 It should be clear by now that so much is possible with DuckyScript 3.0. The combination of  keystroke injection with various attack modes, logic and data processing, along with the built-in features like randomization and internal variables — the possibilities for advanced payload functions seems endless.
@@ -174,7 +178,9 @@ While Hak5 developers cannot envision all possible use cases for the USB Rubber 
 Once you have developed your payload, you are encouraged to contribute to this repository by submitting a Pull Request. Reviewed and Approved pull requests will add your payload to this repository, where they may be publically available.
 
 # Please adhere to the following best practices and style guides when submitting a payload.
+### Purely Desctructive payloads will not be accepted. No, it's not "just a prank".
 Subject to change. Please ensure any submissions meet the [latest version](https://github.com/hak5/usbrubberducky-payloads/blob/master/README.md) of these standards before submitting a Pull Request.
+
 
 ## Naming Conventions
 Please give your payload a unique, descriptive and appropriate name. Do not use spaces in payload, directory or file names. Each payload should be submit into its own directory, with `-` or `_` used in place of spaces, to one of the categories such as exfiltration, phishing, remote_access or recon. Do not create your own category.
@@ -216,9 +222,6 @@ Example:
 	REM Version: 1.0
 	REM Category: General
 </pre>
-
-### Purely Desctructive payloads will not be accepted. No; it's not "just a prank".
-
 
 
 <h1><a href="https://hak5.org/pages/policy">Legal</a></h1>
