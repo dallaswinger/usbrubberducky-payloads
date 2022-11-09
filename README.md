@@ -28,16 +28,26 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/twitter/follow/hak5?style=for-the-badge"/>
 <br/><br/>
+
 </div>
 
--   [Purchase the NEW USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081 "Purchase the NEW USB Rubber Ducky")
+- [Purchase the NEW USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081 "Purchase the NEW USB Rubber Ducky")
 - [Build and Encode Payloads with PayloadStudio](#build-your-payloads) / [Your First Payload](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world)
 -   [Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "Documentation") / [Quick Reference Guide](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-quick-reference "Quick Reference Guide")
 -   [Advanced DuckyScript Online Course](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/advanced-duckyscript-course "DuckyScript Online Course") / [Textbook](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/usb-rubber-ducky-textbook "Textbook")
 -   [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums") / [Discord](https://hak5.org/discord/ "Discord")
 
 # About the USB Rubber Ducky
+
 A "flash drive" that types keystroke injection payloads into unsuspecting devices at incredible speeds.
+
+
+<div align="center">
+<a href="https://www.youtube.com/watch?v=meNlOrdQJFo">Launch Video</a> | 
+<a href="https://shop.hak5.org/pages/keystroke-reflection">Keystroke Reflection</a> |
+<a href="https://www.youtube.com/watch?v=hFfo1TdY9hU">OS Detection</a>
+<br/><br/>
+</div>
 
 [![USB Rubber Ducky](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MiIkRK_o3RBhZzUkrzr%2Fuploads%2FW1Cy0NoSZJhOkaG7gk9t%2Fusb-rubber-ducky-3d-white-bg.png?alt=media&token=7a92ff75-c7ae-4280-b4da-690bef71dac8 "USB Rubber Ducky")](https://hak5.org/products/usb-rubber-ducky)
 
@@ -64,6 +74,7 @@ DuckyScript 3.0 is a feature rich, structured programming language. It includes 
 Additionally, DuckyScript 3.0 introduces [control flow constructs](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/conditional-statements "View Documentation"), [loops](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/loops "View Documentation"), [functions](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/functions "View Documentation"), [extensions](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/extensions "View Documentation").
 Plus, DuckyScript 3.0 includes many features specific to [keystroke injection](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/keystroke-injection "View Documentation") attack/automation, such as [HID & Storage attack modes](https://docs.hak5.org/hak5-usb-rubber-ducky/attack-modes-constants-and-variables/attack-modes "View Documentation"), OS Detection, [Keystroke Reflection](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/exfiltration#the-keystroke-reflection-attack "View Documentation") ([Video + Whitepaper](https://shop.hak5.org/pages/keystroke-reflection "Keystroke Reflection Video + Whitepaper")), [jitter](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/jitter "View Documentation") and [randomization](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/randomization "View Documentation") to name a few.
 
+
 <h2><a href="https://payloadstudio.hak5.org">Build your payloads</a></h2>
 <p align="center">
 Take your DuckyScript™ payloads to the next level with this full-featured,<b> web-based (entirely client side) </b> development environment.
@@ -72,46 +83,62 @@ Take your DuckyScript™ payloads to the next level with this full-featured,<b> 
 <i>Payload studio features all of the conveniences of a modern IDE, right from your browser. From syntax highlighting and auto-completion to live error-checking and repo synchronization - building payloads for Hak5 hotplug tools has never been easier!
 <br/><br/>
 Supports your favorite Hak5 gear - USB Rubber Ducky, Bash Bunny, Key Croc, Shark Jack, Packet Squirrel & LAN Turtle!
-<br/><br/></i>
+<br/><br/></i><br/>
 <a href="https://hak5.org/products/payload-studio-pro">Become a PayloadStudio Pro</a> and <b> Unleash your hacking creativity! </b>
 <br/>
 OR
 <br/>
-<a href="https://payloadstudio.hak5.org"> Try Community Edition FREE</a> 
+<a href="https://payloadstudio.hak5.org/community/"> Try Community Edition FREE</a> 
+<br/><br/>
+<img src="https://cdn.shopify.com/s/files/1/0068/2142/files/themes1_1_600x.gif?v=1659642557">
 <br/>
-<a href="https://payloadstudio.hak5.org"><img src="https://cdn.shopify.com/s/files/1/0068/2142/files/payload-studio-error-checking_600x.gif"></a>
+<i> Payload Studio Themes Preview GIF </i>
 <br/>
-<i> Payload Studio Feature Preview GIF </i>
+<img src="https://cdn.shopify.com/s/files/1/0068/2142/files/AUTOCOMPLETE3_600x.gif?v=1659640513">
+<br/>
+<i> Payload Studio Autocomplete Preview GIF </i>
+
 </p>
 
+## DuckyScript Ecosystem
+
+<h3><a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages'>Languages </a></h3>
+Support for different keyboard layouts can be found, modified or contributed to in the <b><a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages'> languages/ </a></b> directory of this repository.
+
+Compiling payloads for the correct language / keyboard layout has never been easier: <a href='https://payloadstudio.hak5.org'> Open PayloadStudio \> Settings \> Compiler Settings</a> We have included all the languages provided in this repo for your convenience. 
+
+For those who want to dive deeper, <a href="https://hak5.org/products/payload-studio-pro">PayloadStudio Pro</a> has a built in editor specifically for editing and building language files! 
+
+The default language is US and can be found at <a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages/us.json'>languages/us.json </a>
+
+<h3><a href="https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/extensions">Extensions</a></h3>
+It should be clear by now that so much is possible with DuckyScript 3.0. The combination of  keystroke injection with various attack modes, logic and data processing, along with the built-in features like randomization and internal variables — the possibilities for advanced payload functions seems endless.
+<p align="center">
+<br/>
+<img src="https://cdn.shopify.com/s/files/1/0068/2142/files/payload-studio-extensions_600x.gif?v=1659716795">
+<br/>
+<i> Payload Studio Extensions Preview GIF</i>
+</p>
+
+As the payload library continues to grow, so too will the DuckyScript 3.0 language. To that end, the extensions feature of the language and editor facilitate the continued growth of the language.
+<b>Extensions are blocks of reusable code which may be implemented in any payload. Think of them as snippets, or building blocks, upon which your next payload may benefit.</b>
+While Hak5 developers cannot envision all possible use cases for the USB Rubber Ducky, the DuckyScript language has been architected in such a way so that the community as a whole may gain new features and abilities with each contributed extension.
+
+[Read more here](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/extensions "Read more here")
 
 
-
-## Legal
-Payloads from this repository are provided for educational purposes only.  Hak5 gear is intended for authorized auditing and security analysis purposes only where permitted subject to local and international laws where applicable. Users are solely responsible for compliance with all laws of their locality. Hak5 LLC and affiliates claim no responsibility for unauthorized or unlawful use.
-
-USB Rubber Ducky and DuckyScript are the trademarks of Hak5 LLC. Copyright © 2010 Hak5 LLC. All rights reserved. No part of this work may be reproduced or transmitted in any form or by any means without prior written permission from the copyright owner.
-USB Rubber Ducky and DuckyScript are subject to the Hak5 license agreement (https://hak5.org/license)
-DuckyScript is the intellectual property of Hak5 LLC for the sole benefit of Hak5 LLC and its licensees. To inquire about obtaining a license to use this material in your own project, contact us. Please report counterfeits and brand abuse to legal@hak5.org.
-This material is for education, authorized auditing and analysis purposes where permitted subject to local and international laws. Users are solely responsible for compliance. Hak5 LLC claims no responsibility for unauthorized or unlawful use.
-Hak5 LLC products and technology are only available to BIS recognized license exception ENC favorable treatment countries pursuant to US 15 CFR Supplement No 3 to Part 740.
-
-## Disclaimer
-Generally, payloads may execute commands on your device. As such, it is possible for a payload to damage your device. Payloads from this repository are provided AS-IS without warranty. While Hak5 makes a best effort to review payloads, there are no guarantees as to their effectiveness. As with any script, you are advised to proceed with caution.
-
-## Contributing
-
+<h2><a href='https://payloadhub.com'>Contributing</a></h2>
 
 <p align="center">
 <a href="https://payloadhub.com"><img src="https://cdn.shopify.com/s/files/1/0068/2142/files/payloadhub.png?v=1652474600"></a>
 <br/>
-<a href="https://paylaodhub.com">View Featured Payloads and Leaderboard </a>
+<a href="https://payloadhub.com">View Featured Payloads and Leaderboard </a>
 </p>
 
 
 Once you have developed your payload, you are encouraged to contribute to this repository by submitting a Pull Request. Reviewed and Approved pull requests will add your payload to this repository, where they may be publically available.
 
-### Please adhere to the following best practices and style guide when submitting a payload.
+### Please adhere to the following best practices and style guides when submitting a payload.
 
 ### Naming Conventions
 Please give your payload a unique, descriptive and appropriate name. Do not use spaces in payload, directory or file names. Each payload should be submit into its own directory, with `-` or `_` used in place of spaces, to one of the categories such as exfiltration, phishing, remote_access or recon. Do not create your own category.
@@ -148,3 +175,17 @@ Example:
 	REM Version: 1.0
 	REM Category: General
 </pre>
+
+
+
+## Legal
+Payloads from this repository are provided for educational purposes only.  Hak5 gear is intended for authorized auditing and security analysis purposes only where permitted subject to local and international laws where applicable. Users are solely responsible for compliance with all laws of their locality. Hak5 LLC and affiliates claim no responsibility for unauthorized or unlawful use.
+
+USB Rubber Ducky and DuckyScript are the trademarks of Hak5 LLC. Copyright © 2010 Hak5 LLC. All rights reserved. No part of this work may be reproduced or transmitted in any form or by any means without prior written permission from the copyright owner.
+USB Rubber Ducky and DuckyScript are subject to the Hak5 license agreement (https://hak5.org/license)
+DuckyScript is the intellectual property of Hak5 LLC for the sole benefit of Hak5 LLC and its licensees. To inquire about obtaining a license to use this material in your own project, contact us. Please report counterfeits and brand abuse to legal@hak5.org.
+This material is for education, authorized auditing and analysis purposes where permitted subject to local and international laws. Users are solely responsible for compliance. Hak5 LLC claims no responsibility for unauthorized or unlawful use.
+Hak5 LLC products and technology are only available to BIS recognized license exception ENC favorable treatment countries pursuant to US 15 CFR Supplement No 3 to Part 740.
+
+## Disclaimer
+Generally, payloads may execute commands on your device. As such, it is possible for a payload to damage your device. Payloads from this repository are provided AS-IS without warranty. While Hak5 makes a best effort to review payloads, there are no guarantees as to their effectiveness. As with any script, you are advised to proceed with caution.
