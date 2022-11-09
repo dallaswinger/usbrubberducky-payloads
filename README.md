@@ -111,6 +111,7 @@ The files in this repository are _the source code_ in the form of `payload.txt` 
 <h1><a href="https://payloadstudio.hak5.org">Build your payloads with PayloadStudio</a></h1>
 <p align="center">
 Take your DuckyScript™ payloads to the next level with this full-featured,<b> web-based (entirely client side) </b> development environment.
+<br/>
 <a href="https://payloadstudio.hak5.org"><img src="https://cdn.shopify.com/s/files/1/0068/2142/products/payload-studio-icon_180x.png?v=1659135374"></a>
 <br/>
 <i>Payload studio features all of the conveniences of a modern IDE, right from your browser. From syntax highlighting and auto-completion to live error-checking and repo synchronization - building payloads for Hak5 hotplug tools has never been easier!
