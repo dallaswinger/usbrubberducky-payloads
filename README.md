@@ -18,7 +18,7 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 <a href="https://hak5.org/blogs/payloads/tagged/usb-rubber-ducky">View Featured Ducky Payloads and Leaderboard</a>
 </p>
 
-## Links
+
 <div align="center">
 <a href="https://hak5.org/discord"><img src="https://img.shields.io/discord/506629366659153951?label=Hak5%20Discord&style=for-the-badge"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -31,13 +31,32 @@ This repository contains payloads and extensions for the Hak5 USB Rubber Ducky. 
 
 </div>
 
-- [Purchase the NEW USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081 "Purchase the NEW USB Rubber Ducky")
-- [Build and Encode Payloads with PayloadStudio](#build-your-payloads) / [Your First Payload](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world)
--   [Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "Documentation") / [Quick Reference Guide](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-quick-reference "Quick Reference Guide")
--   [Advanced DuckyScript Online Course](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/advanced-duckyscript-course "DuckyScript Online Course") / [Textbook](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/usb-rubber-ducky-textbook "Textbook")
--   [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums") / [Discord](https://hak5.org/discord/ "Discord")
+### Shop
+- [NEW USB Rubber Ducky](https://hak5.org/products/usb-rubber-ducky?variant=39874478932081 "Purchase the NEW USB Rubber Ducky")
+- [PayloadStudio Pro](https://hak5.org/products/payload-studio-pro "Purchase PayloadStudio Pro")
+- [Shop All Hak5 Tools](https://shop.hak5.org "Shop All Hak5 Tools")
+### Getting Started
+- [Build and Encode Payloads with PayloadStudio](#build-your-payloads) | [QUICK START GUIDE](https://docs.hak5.org/hak5-usb-rubber-ducky/unboxing-quack-start-guide "QUICK START GUIDE") | [Your First Payload](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/hello-world)
+### Documentation / Learn More
+-   [Documentation](https://docs.hak5.org/hak5-usb-rubber-ducky/ "Documentation") | [Quick Reference Guide](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-quick-reference "Quick Reference Guide")
+-   [Advanced DuckyScript Online Course](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/advanced-duckyscript-course "DuckyScript Online Course") | [Textbook](https://shop.hak5.org/collections/usb-rubber-ducky-essentials/products/usb-rubber-ducky-textbook "Textbook")
+### Community
+-   [Forums](https://forums.hak5.org/forum/111-new-usb-rubber-ducky/ "Forums") | [Discord](https://hak5.org/discord/ "Discord")
 
-# About the USB Rubber Ducky
+
+
+<br/><br/>
+<b> Follow the creators </b><br/>
+<p >
+	<a href="https://twitter.com/notkorben">Korben's Twitter</a> | 
+	<a href="https://instagram.com/hak5korben">Korben's Instagram</a>
+<br/>
+	<a href="https://twitter.com/hak5darren">Darren's Twitter</a> | 
+	<a href="https://instagram.com/hak5darren">Darren's Instagram</a>
+</p>
+
+<br/>
+<h1><a href="https://hak5.org/products/usb-rubber-ducky">About the NEW USB Rubber Ducky</a></h1>
 
 A "flash drive" that types keystroke injection payloads into unsuspecting devices at incredible speeds.
 
@@ -74,6 +93,15 @@ DuckyScript 3.0 is a feature rich, structured programming language. It includes 
 Additionally, DuckyScript 3.0 introduces [control flow constructs](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/conditional-statements "View Documentation"), [loops](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/loops "View Documentation"), [functions](https://docs.hak5.org/hak5-usb-rubber-ducky/operators-conditions-loops-and-functions/functions "View Documentation"), [extensions](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/extensions "View Documentation").
 Plus, DuckyScript 3.0 includes many features specific to [keystroke injection](https://docs.hak5.org/hak5-usb-rubber-ducky/ducky-script-basics/keystroke-injection "View Documentation") attack/automation, such as [HID & Storage attack modes](https://docs.hak5.org/hak5-usb-rubber-ducky/attack-modes-constants-and-variables/attack-modes "View Documentation"), OS Detection, [Keystroke Reflection](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/exfiltration#the-keystroke-reflection-attack "View Documentation") ([Video + Whitepaper](https://shop.hak5.org/pages/keystroke-reflection "Keystroke Reflection Video + Whitepaper")), [jitter](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/jitter "View Documentation") and [randomization](https://docs.hak5.org/hak5-usb-rubber-ducky/advanced-features/randomization "View Documentation") to name a few.
 
+While many of the Hak5 Tools run various versions of DuckyScript; unlike the [Bash Bunny](https://shop.hak5.org/products/bash-bunny), [Key Croc](https://shop.hak5.org/products/key-croc) and even the [officially licenced DuckyScript compatible devices from O.MG](https://shop.hak5.org/collections/mischief-gadgets/ "O.MG") - which use `INTERPRETED` versions of DuckyScript - the USB Rubber Ducky uses `COMPILED inject.bin` payloads. 
+
+
+_Interpreted DuckyScript means the payload runs straight from `source code` (the code you write e.g. `DELAY 1000`)._
+
+_Compiled DuckyScript means that there is both `source code` and an `inject.bin` generated from the source code_
+
+The files in this repository are _the source code_ in the form of `payload.txt` files. 
+
 
 <h2><a href="https://payloadstudio.hak5.org">Build your payloads</a></h2>
 <p align="center">
@@ -97,10 +125,12 @@ OR
 <img src="https://cdn.shopify.com/s/files/1/0068/2142/files/AUTOCOMPLETE3_600x.gif?v=1659640513">
 <br/>
 <i> Payload Studio Autocomplete Preview GIF </i>
-
 </p>
 
-## DuckyScript Ecosystem
+
+
+
+## The Ecosystem
 
 <h3><a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages'>Languages </a></h3>
 Support for different keyboard layouts can be found, modified or contributed to in the <b><a href='https://github.com/dallaswinger/usbrubberducky-payloads/blob/master/languages'> languages/ </a></b> directory of this repository.
@@ -151,8 +181,11 @@ In many cases, payloads will require some level of configuration by the end payl
 - Make note of both required and optional configuration(s) in your payload using comments at the top of your payload or "inline" where applicable
 <pre>
 Example: 
+	BEGINNING OF PAYLOAD 
+	... Payload Documentation... 
+
 	REM Configuration
-	REM REQUIRED - Provide URL used for <something> 
+	REM REQUIRED - Provide URL used for Example
 	DEFINE MY_TARGET_URL example.com
 	REM OPTIONAL - How long until payload starts; default 5s
 	DEFINE BOOT_DELAY 5000
@@ -167,11 +200,13 @@ Example:
 Payloads should begin with `REM` comments specifying the title of the payload, the author, the target, and a brief description.
 <pre>
 Example:
+	BEGINNING OF PAYLOAD
+
 	REM Title: Example Payload
 	REM Author: Korben Dallas
-	REM Description: Opens hidden powershell and ...
+	REM Description: Opens hidden powershell and
 	REM Target: Windows 10
-	REM Props: Hak5, Darren Kitchen, 
+	REM Props: Hak5, Darren Kitchen, Korben
 	REM Version: 1.0
 	REM Category: General
 </pre>
